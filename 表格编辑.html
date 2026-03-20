@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格编辑</title>
+
+    <style>
+        *{
+            font-family: 'KaiTi';
+        }
+
+        table{
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        td,th{
+            border: 2px solid gray;
+        }
+
+        th{
+            background-color: #ddd;
+        }
+
+        button{
+            margin-left: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1 style="text-align: center;">基本信息表格</h1>
+    <button style="font-size: 20px;" onclick="row_improve()">新增数据</button>
+    
+    <table>
+        <tr>
+            <th style="font-size: 20px;">姓名</th>
+            <th style="font-size: 20px;">联系方式</th>
+            <th style="font-size: 20px;">操作</th>
+        </tr>
+        <tr>
+            <td>李华</td>
+            <td>19228842953</td>
+            <td>
+                <button onclick="row_change(this)">编辑</button><button onclick="row_delete(this)">删除</button>
+            </td>
+        </tr>
+    </table>
+
+    <script src="./按钮操作.js"></script>
+
+</body>
+</html>

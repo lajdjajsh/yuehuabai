@@ -1,0 +1,1 @@
+import{F as e}from"./FuelStoryStage-tcQfBDNM.js";import{d as o,z as r,a as t}from"./index-B5PNvhJT.js";import"./OrbitControls-CAo8qoNG.js";import"./index-xgxdCp6f.js";const i=o({__name:"FuelCore",setup(a){return(c,p)=>(t(),r(e,{act:"core"}))}});export{i as default};

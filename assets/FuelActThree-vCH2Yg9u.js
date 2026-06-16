@@ -1,0 +1,1 @@
+import{F as e}from"./FuelStoryStage-D3as-xeD.js";import{d as t,c as o,o as r}from"./index-BJJLLKPt.js";import"./OrbitControls-B7G50aqf.js";import"./index-xgxdCp6f.js";import"./useVoice-CMEqGq4p.js";const u=t({__name:"FuelActThree",setup(a){return(c,p)=>(r(),o(e,{act:"3"}))}});export{u as default};
